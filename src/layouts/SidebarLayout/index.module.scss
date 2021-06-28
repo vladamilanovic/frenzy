@@ -1,0 +1,10 @@
+.sidebar-layout-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .main-wrapper {
+    height: calc(100vh - 68px);
+    display: flex;
+  }
+}

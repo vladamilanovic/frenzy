@@ -1,0 +1,12 @@
+.wrapper {
+  flex-basis: 240px;
+  background: #394577;
+  .menu-item {
+    font-size: 12px;
+    color: #bbc2dd;
+    &.active {
+      font-weight: 500;
+      color: #ced4eb;
+    }
+  }
+}

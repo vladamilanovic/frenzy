@@ -1,0 +1,18 @@
+.wrapper {
+  flex-basis: 300px;
+  background: #d8d8d8;
+  color: #29335c;
+  overflow-y: auto;
+  .history-item {
+    height: 90px;
+    border-bottom: 1px solid #777;
+    .history-item-date {
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .history-item-content {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}

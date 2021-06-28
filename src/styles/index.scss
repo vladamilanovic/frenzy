@@ -1,0 +1,23 @@
+@import 'nprogress/nprogress.css';
+@import '~bootstrap/scss/bootstrap';
+@import 'izitoast/dist/css/iziToast.min.css';
+
+.btn-vm {
+  width: 150px;
+  background: #394577;
+  border-radius: 10px;
+  color: #fafafa;
+  font-size: 14px;
+  margin-bottom: 20px;
+
+  &:hover {
+    color: #fafafa;
+  }
+}
+
+.content-substring {
+  font-size: 25px;
+  font-weight: 500;
+  color: #29335c;
+  margin-bottom: 35px;
+}
